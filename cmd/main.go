@@ -2,10 +2,11 @@ package main
 
 import (
 	"flag"
-	"untypicalCompanyTestTask/repository"
-	"untypicalCompanyTestTask/routing"
+	"untypicalCompanyTestTask/pkg/repository"
+	"untypicalCompanyTestTask/pkg/routing"
 )
 
+//Порт, на котором разворачивается веб-сервис
 var port = flag.String("port", "8086", "server port")
 
 func main() {

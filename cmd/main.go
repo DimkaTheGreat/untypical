@@ -2,8 +2,9 @@ package main
 
 import (
 	"flag"
-	"untypicalCompanyTestTask/pkg/repository"
-	"untypicalCompanyTestTask/pkg/routing"
+
+	"github.com/DimkaTheGreat/untypical/pkg/repository"
+	"github.com/DimkaTheGreat/untypical/pkg/routing"
 )
 
 //Порт, на котором разворачивается веб-сервис

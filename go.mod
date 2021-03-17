@@ -1,4 +1,4 @@
-module untypicalCompanyTestTask
+module github.com/DimkaTheGreat/untypical
 
 go 1.16
 

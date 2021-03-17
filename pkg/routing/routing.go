@@ -5,7 +5,8 @@ import (
 	"log"
 
 	"net/http"
-	"untypicalCompanyTestTask/pkg/repository"
+
+	"github.com/DimkaTheGreat/untypical/pkg/repository"
 
 	"github.com/labstack/echo/v4"
 )
@@ -112,7 +113,7 @@ func (s *Server) upsert(c echo.Context) error {
 		return err
 	}
 
-	c.JSON(http.StatusOK, "Done")
+	c.String(http.StatusOK, "Done")
 
 	return nil
 }
@@ -137,7 +138,7 @@ func (s *Server) delete(c echo.Context) error {
 
 	}
 
-	c.String(http.StatusOK, "Done\n")
+	c.String(http.StatusOK, "Done")
 
 	return nil
 }
